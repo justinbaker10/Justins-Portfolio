@@ -1,11 +1,12 @@
-// const express = require('express')
-// //creates express app
-// const app = express()
-// //sets the path to the html file
-// const path = require('path')
-// //a sample route
-// app.get('/', function(req, res) {
-//     res.sendFile(path.join('index.html' { root: portfolio-site }));
-// });
-// // Start the Express server
-// app.listen(3000, () => console.log('Server running on port 3000!'))
+const express = require('express')
+const app = express()
+const port = 3000
+
+app.use(express.static('public'))
+
+app.get("/", function(req, res)
+{
+    res.sendFile("index.html", {"root": "public"});
+});
+
+app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`))
