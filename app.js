@@ -6,7 +6,7 @@ app.use(express.static('public'))
 
 app.get("/", function(req, res)
 {
-    res.sendFile("index.html", {"root": "public"});
+    res.sendFile("index.html", {"root": "docs"});
 });
 
 app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`))

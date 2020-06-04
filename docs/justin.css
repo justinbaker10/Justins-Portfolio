@@ -167,3 +167,13 @@ body {
     text-decoration: none;
     color: white;
 }
+.nav-item:hover {
+    background-color: white !important;
+}
+#nav {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+a.nav-link {
+    padding: 15px 16px 15px 16px;
+}
