@@ -1,12 +1,6 @@
-
-@font-face {
-    font-family: 'adequate';
-    src: url(fonts/Adequate-ExtraLight.ttf)
-}
-
 body {
-    font-family: 'adequate';
-    background-color: rgb(64, 64, 64) !important;
+    background-color: #3b3b3b !important; 
+    position: relative;
 }
 
     /* Navigation Styles */
@@ -33,7 +27,8 @@ a.nav-link {
 }
 
 .sitenavbar {
-    font-family: 'adequate';
+    font-family: 'Raleway' sans-serif;
+    font-weight: 200;
     display: flex;
 }
 
@@ -58,7 +53,7 @@ a.nav-link {
 }
 
 .background-text {
-    color: white;
+    color: black;
     height: 450px;
     width: 550px;
     margin: 120px auto;
@@ -87,16 +82,26 @@ a.nav-link {
     /* Skills Styles */
 
 .skills {
-    color: white;
-    background-color: rgb(33, 33, 33) !important;
+    color: #3d3d3d;
     text-align: center;
-    font-family: 'adequate';
+    font-family: 'Raleway' sans-serif;
+    font-weight: 500;
     font-size: 50px;
     padding: 20px 0px 90px 0px;
+    background-color: whitesmoke;
 }
 
 .skillsheader {
-    padding: 50px 0px 40px 0px;
+    padding: 50px 0px 0px 0px;
+}
+
+.headerline {
+    margin-left: 675px;
+    margin-right: 675px;
+    height: 3px;
+    border: none;
+    background-color: #2e2e2e;
+    margin-bottom: 60px;
 }
 
 
@@ -113,14 +118,24 @@ a.nav-link {
     /* Projects Styles */
 
 .projects {
-    color: white;
+    color: #3d3d3d;
     text-align: center;
-    font-family: 'adequate';
+    font-family: 'Raleway' sans-serif;
+    font-weight: 500;
     font-size: 50px;
-    padding: 20px 0px 30px 0px;
+    padding: 20px 0px 80px 0px;
     display: flex;
     justify-content: space-evenly;
     text-decoration: none;
+}
+
+.projectslogo {
+    color: #3d3d3d;
+    text-align: center;
+    font-family: 'Raleway' sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    padding: 50px 0px 0px 0px;
 }
 
 .datenite {
@@ -135,6 +150,10 @@ a.nav-link {
     text-decoration: none;
 }
 
+.datenitebox a:hover {
+    text-decoration: none !important;
+}
+
 .mamnt {
     max-width: 400px;
     border-radius: 10px;
@@ -144,14 +163,6 @@ a.nav-link {
 
 .mamnt:hover {
     transform: scale(1.05);
-}
-
-.projectslogo {
-    color: white;
-    text-align: center;
-    font-family: 'adequate';
-    font-size: 50px;
-    padding: 50px 0px 40px 0px;
 }
 
 .datenitebox p {
@@ -168,41 +179,45 @@ a.nav-link {
     padding-top: 20px; 
 }
 
-.datenitebox h2 {
+.datenitebox h3 {
     text-decoration: none;
-    color: white;
-}
-
-.datenitebox a {
-    text-decoration: none;
+    color: #3d3d3d;
 }
 
 .projects p {
     font-size: 25px;
 }
 
-.mamntbox h2 {
-    text-decoration: none;
-    color: white;
+.mamntbox h3 {
+    color: #3d3d3d;
+}
+
+.mamntbox a:hover {
+    text-decoration: none !important;
 }
 
 .mamnt a {
     text-decoration: none;
 }
 
+#projects {
+    background-color: white;
+}
+
     /* Contact Styles */
 
 .contactlogo {
-    color: white;
+    color: #3d3d3d;
     text-align: center;
-    font-family: 'adequate';
+    font-family: 'Raleway' sans-serif;
+    font-weight: 500;
     font-size: 50px;
-    padding: 20px 0px 30px 0px;
+    padding: 20px 0px 0px 0px;
     margin: 0 auto;
 }
 
 .contactbox {
-    background-color: darkgrey;
+    background-color: whitesmoke;
 }
 
 #submitbutton {
@@ -213,3 +228,50 @@ a.nav-link {
 .text-center {
     padding: 15px 0px 40px 0px;
 }
+
+.smallicon {
+    width: 50px;
+}
+
+.aboutmeicons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.iconbox {
+    text-align: center;
+    font-family: 'Raleway' sans-serif;
+    font-weight: 200;
+}
+
+    /* Footer */
+
+.footer {
+    background-color: #3b3b3b;
+    color: whitesmoke;
+    font-family: 'Raleway';
+    font-weight: 200;
+    height: 75px;
+}
+
+.footer p {
+    margin-bottom: 0;
+    padding: 30px 0px 25px 40px;
+}
+
+.socialiconsbox {
+    text-align: right;
+    float: right;
+    padding: 25px 40px 25px 0px;
+}
+
+.socialicons {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px
+}
+
+.floating {
+    display: inline-block;
+}
+

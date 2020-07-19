@@ -5,7 +5,7 @@
     <title>Justin Baker - Software Developer</title>
     <link rel="stylesheet" type="text/css" href="justin.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;500&display=swap" rel="stylesheet">
     <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 </head>
 <body>
@@ -48,7 +48,7 @@
   <!--Skills Division-->
   <section id="skills">
     <div class="skills">
-      <p class="skillsheader">Skills</p>
+      <p class="skillsheader">Skills</p><hr class="headerline">
       <!--start of skills icons-->
       <svg viewBox="0 0 128 128" class="icons htmlicon">
         <path fill="#E44D26" d="M27.854 116.354l-8.043-90.211h88.378l-8.051 90.197-36.192 10.033z"></path><path fill="#F16529" d="M64 118.704l29.244-8.108 6.881-77.076h-36.125z"></path><path fill="#EBEBEB" d="M64 66.978h-14.641l-1.01-11.331h15.651v-11.064h-27.743l.264 2.969 2.72 30.489h24.759zM64 95.711l-.049.013-12.321-3.328-.788-8.823h-11.107l1.55 17.372 22.664 6.292.051-.015z"></path><path d="M28.034 1.627h5.622v5.556h5.144v-5.556h5.623v16.822h-5.623v-5.633h-5.143v5.633h-5.623v-16.822zM51.816 7.206h-4.95v-5.579h15.525v5.579h-4.952v11.243h-5.623v-11.243zM64.855 1.627h5.862l3.607 5.911 3.603-5.911h5.865v16.822h-5.601v-8.338l-3.867 5.981h-.098l-3.87-5.981v8.338h-5.502v-16.822zM86.591 1.627h5.624v11.262h7.907v5.561h-13.531v-16.823z"></path><path fill="#fff" d="M63.962 66.978v11.063h13.624l-1.284 14.349-12.34 3.331v11.51l22.682-6.286.166-1.87 2.6-29.127.27-2.97h-2.982zM63.962 44.583v11.064h26.725l.221-2.487.505-5.608.265-2.969z"></path>
@@ -76,21 +76,25 @@
 
   <!--Projects Division-->
   <section id="projects">
-    <p class="projectslogo">Projects</p>
+    <p class="projectslogo">Projects</p><hr class="headerline">
     <div class="projects">
       <div class="datenitebox">
-        <a href="http://www.datenight3.com.s3-website.us-east-2.amazonaws.com/">
-          <h2>DateNite</h2>
+        <a href="https://justinbaker10.github.io/JustinsSpaceRaceAdventure/" target="_blank">
+          <h3>SpaceRace Adventure</h3>
+          <img src="img/spacerace.png" class="datenite">
+        </a>
+      </div>
+      <div class="datenitebox">
+        <a href="http://www.datenight3.com.s3-website.us-east-2.amazonaws.com/" target="_blank">
+          <h3>DateNite</h3>
           <img src="img/datenite.png" class="datenite">
         </a>
-        <p>A simple website that pairs food and drinks while giving you the instructions and ingredients for both.</p>
       </div>
       <div class="mamntbox">
-        <a href="https://justinbaker10.github.io/calculator-app/">
-          <h2>myCalc</h2>
+        <a href="https://justinbaker10.github.io/calculator-app/" target="_blank">
+          <h3>myCalc</h3>
           <img src="img/calculator.png" class="mamnt">
         </a>
-        <p>An elegant customizable calculator built with vanilla Javascript, HTML, and CSS Grid.</p>
       </div>
     </div>
   </section>
@@ -98,7 +102,7 @@
   <!--Contact Form-->
   <section id="contact">
     <div class="contactbox">
-      <p class="contactlogo">Contact</p>
+      <p class="contactlogo">Contact</p><hr class="headerline">
       <div class="container">
         <form action="https://formspree.io/mlepbpnz" method="POST">
           <div class="form-group">
@@ -131,9 +135,31 @@
             </button>
           </div>
         </form>
+        <div class="aboutmeicons">
+          <div class="iconbox">
+            <img src="img/location.png" class="smallicon">
+            <p>Northlake, Tx</p>
+          </div>
+          <div class="iconbox">
+            <img src="img/email.png" class="smallicon">
+            <p>justin-baker@live.com</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
-  <script src="app.js"></script>
+  <div class="footer">
+    <div class="floating">
+      <p>© 2020 Justin Baker. All Rights Reserved.</p>
+    </div>
+    <div class="socialiconsbox floating">
+      <a href="https://github.com/justinbaker10" target="_blank"><img src="img/github-11-64.png" class="socialicons"></a>
+      <a href="https://linkedin.com/in/justin-baker1" target="_blank"><img src="img/linkedin-3-64.png" class="socialicons"></a>
+    </div>
+  </div>
 </body>
+
+<!--Scripts Section-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="scroll.js"></script>
 </html>
