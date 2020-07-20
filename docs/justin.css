@@ -1,7 +1,11 @@
 body {
     background-color: #3b3b3b !important; 
     position: relative;
+    font-family: 'Raleway';
 }
+
+
+
 
     /* Navigation Styles */
 
@@ -26,8 +30,12 @@ a.nav-link {
     padding: 15px 16px 15px 16px;
 }
 
+a.nav-link:hover {
+    color: #3b3b3b;
+}
+
 .sitenavbar {
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway';
     font-weight: 200;
     display: flex;
 }
@@ -40,6 +48,9 @@ a.nav-link {
     background-color: #3b3b3b;
  }
 
+
+
+
     /* Background Styles */
 
 .background-box {
@@ -50,6 +61,7 @@ a.nav-link {
 
 .bg {
   width: 100%;
+  height: 100vh;
 }
 
 .background-text {
@@ -57,34 +69,39 @@ a.nav-link {
     height: 450px;
     width: 550px;
     margin: 120px auto;
-    background-color: rgb(255, 255, 255, 0.3);
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);  
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     top: 0;
     bottom: 0;
+    text-align: center;
 }
 
 .justin {
-    margin-top: 110px;
-    padding: 10px 50px 0px 50px;
-    font-family: 'adequate';
+    font-family: 'Raleway';
+    font-weight: 500;
     font-size: 50px;
+    color: whitesmoke;
 }
 
 .softwaredev {
-    margin-bottom: 110px;
-    padding: 0px 0px 10px 50px;
-    font-family: 'adequate';
+    font-family: 'Raleway';
+    font-weight: 500;
     font-size: 35px;
+    color: whitesmoke;
 }
+
+
+
+
 
     /* Skills Styles */
 
 .skills {
     color: #3d3d3d;
     text-align: center;
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway';
     font-weight: 500;
     font-size: 50px;
     padding: 20px 0px 90px 0px;
@@ -115,12 +132,15 @@ a.nav-link {
     transform: scale(1.2);
 }
 
+
+
+
     /* Projects Styles */
 
 .projects {
     color: #3d3d3d;
     text-align: center;
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway';
     font-weight: 500;
     font-size: 50px;
     padding: 20px 0px 80px 0px;
@@ -132,7 +152,7 @@ a.nav-link {
 .projectslogo {
     color: #3d3d3d;
     text-align: center;
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway';
     font-weight: 500;
     font-size: 50px;
     padding: 50px 0px 0px 0px;
@@ -204,12 +224,15 @@ a.nav-link {
     background-color: white;
 }
 
+
+
+
     /* Contact Styles */
 
 .contactlogo {
     color: #3d3d3d;
     text-align: center;
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway';
     font-weight: 500;
     font-size: 50px;
     padding: 20px 0px 0px 0px;
@@ -240,9 +263,12 @@ a.nav-link {
 
 .iconbox {
     text-align: center;
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway';
     font-weight: 200;
 }
+
+
+
 
     /* Footer */
 
