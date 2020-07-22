@@ -193,6 +193,12 @@ a.nav-link:hover {
     transform: scale(1.05);
 }
 
+@media only screen and (max-width: 768px) {
+    img {
+        width: 250px;
+    }
+}
+
 .datenitebox p {
     max-width: 300px;
     font-size: 32px; 
