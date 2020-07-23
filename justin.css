@@ -66,6 +66,7 @@ a.nav-link:hover {
 .background-text {
     color: black;
     height: 450px;
+    width: 100%;
     margin: 120px auto;
     position: absolute;
     display: flex;
