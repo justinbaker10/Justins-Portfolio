@@ -249,6 +249,9 @@ a.nav-link:hover {
     body {
         width: 100%;
     }
+    .col-auto {
+        padding-bottom: 30px;
+    }
 }
 
 .datenitebox p {
